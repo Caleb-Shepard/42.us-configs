@@ -31,4 +31,3 @@ touch ~/Library/KeyBindings/DefaultKeyBinding.dict
 echo "{\n\t\"\UF729\"  = moveToBeginningOfParagraph:; // home\n\t\"\UF72B\"  = moveToEndOfParagraph:; // end\n\t\"$\UF729\" = moveToBeginningOfParagraphAndModifySelection:; // shift-home\n\t\"$\UF72B\" = moveToEndOfParagraphAndModifySelection:; // shift-end\n}" >> ~/Library/KeyBindings/DefaultKeyBinding.dict
 
 source ~/.zshrc
-

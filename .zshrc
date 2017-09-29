@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/nfs/2017/c/cshepard/.oh-my-zsh
+export ZSH=/nfs/2017/c/$(whoami)/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="aussiegeek"
@@ -86,5 +86,6 @@ alias normi='norminette -R CheckForbiddenSourceHeader'
 alias apd='cat ~/appendage >>'
 alias spotify-cli='~/Workspace/Scripts/spotify-cli'
 
-export MAIL42=calebshepard@outlook.com
+# Reset this address
+export MAIL42=marvin@42.us
 export USER42=$(whoami)
