@@ -3,7 +3,7 @@ execute pathogen#infect()
 " *start* {{{
 if has('vim_starting')
     if &compatible
-        set nocompatible    " do not maintatin compatibility with vi
+        set nocompatible    " do not maintain compatibility with vi
     endif
 
     scriptencoding utf-8
@@ -32,16 +32,16 @@ else
     let airline_powerline_fonts=0
 endif
 
-"set synmaxcol=256                               " limit syntax highlighting to 256 columns (default 1000)
+"set synmaxcol=256                              " limit syntax highlighting to 256 columns (default 1000)
 
 set cursorline                                  " horizontal line where cursor is
-" set colorcolumn=81,121                          " vertical lines at 81 and 121
+" set colorcolumn=81,121                        " vertical lines at 81 and 121
 
 set list                                        " show hidden characters
 set listchars=eol:¬,tab:»\ ,extends:»,trail:·   " configure what to show for hidden characters
 
 set number                                      " show line numbers
-" set relativenumber                              " relative line numbers from current line #
+" set relativenumber                            " relative line numbers from current line #
 
 set laststatus=2                                " always show the status bar at the bottom
 set noshowmode                                  " don't display --insert--, --visual--, --normal--, etc
@@ -68,8 +68,8 @@ set undofile
 " *search* {{{
 set incsearch           " hilight in real time while searching
 set hlsearch            " highlight all matches
-"set ignorecase          " ignores case when searching
-"set smartcase           " case sensitive with a capital letter
+"set ignorecase         " ignores case when searching
+"set smartcase          " case sensitive with a capital letter
 " }}}
 
 " *indentation* {{{
@@ -78,9 +78,9 @@ set cindent                     " c-style indentation
 set smartindent                 " c-like indentation on new line
 
 set shiftwidth=4                " number of spaces to auto-indent with cindent, <<, >>, etc
-"set softtabstop=4               " make spaces feel like tabs (i.e. <BS> deletes to last tabstop)
+"set softtabstop=4              " make spaces feel like tabs (i.e. <BS> deletes to last tabstop)
 set tabstop=4                   " number of spaces tab inserts
-"set expandtab                   " use spaces rather than tabs
+"set expandtab                  " use spaces rather than tabs
 
 set indentkeys-=0#              " do not break indent on #
 set cinoptions=:s,ps,ts,cs      " how cindent re-indents a line
@@ -101,7 +101,7 @@ set autoread            " autoread when file is changed
 
 set hidden              " current buffer can be hidden when not written to disk
 
-" set scrolloff=4         " start scrolling when 4 lines away from top/bottom (set if you like .. I don't like it)
+" set scrolloff=4       " start scrolling when 4 lines away from top/bottom (set if you like .. I don't like it)
 
 set mouse=""            " disable mouse (so annoying when you click or scroll)
 
