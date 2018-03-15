@@ -27,4 +27,4 @@ cshepard@42.us
 This project is licensed under the GPLv3
 
 ### Pull Requests and Modification
-This collection of scripts is freely modifiable and redistributable under the GPLv3. As free software, you may do what you wish; you may contact me with pull requests and feel free to report any issues.
+This collection of scripts is free software under the GPLv3. As free software, you may do what you wish; you may contact me with pull requests and feel free to report any issues.
